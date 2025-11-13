@@ -111,7 +111,7 @@ lib/
 - ✅ **Theme Cubit** - Dark/light theme switching with persistence
 - ✅ **Locale Cubit** - Internationalization (English/Spanish) with persistence
 - ✅ **BLoC Observer** - Complete event and state logging
-- ✅ **Multi-flavor** support (dev, int, prod)
+- ✅ **Multi-Env-runtime** support (dev, int, prod)
 - ✅ **Environment Variables** - Configuration from .env files
 - ✅ **Demo Feature** - Fetching jokes from public API
 - ✅ **Navigation** between screens with GoRouter
@@ -183,9 +183,9 @@ flutter test integration_test/app_test.dart
 flutter test --coverage
 ```
 
-## 🔧 Flavor Configuration
+## 🔧 ENV Configuration (At the moment it doesn't support flavors, this is a env runtime switching)
 
-Each flavor has its own configuration in `AppConfig`:
+Each environment has its own configuration in `AppConfig`:
 
 ### Development (DEV)
 - API Base URL: https://official-joke-api.appspot.com
